@@ -1,0 +1,19 @@
+# Binaries
+/bin/
+/taskboard
+*.exe
+
+# Test and coverage output
+*.test
+*.out
+coverage.*
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
