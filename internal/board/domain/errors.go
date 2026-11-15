@@ -16,4 +16,7 @@ var (
 	ErrAlreadyMember   = errors.New("user is already a member")
 	ErrLastOwner       = errors.New("a team must keep at least one owner")
 	ErrTaskNotInTeam   = errors.New("the team passed in is not the task’s team")
+
+	ErrTaskNotAssigned = errors.New("the task is not assigned")
+	ErrTaskNotDueDate  = errors.New("the task is not due date")
 )
